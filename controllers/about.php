@@ -1,5 +1,7 @@
 <?php
 
-$heading = 'About Us';
+// dd("$_SESSION[Name]");
 
-require "views/about.view.php";
+view("about.view.php", [
+    'heading' => 'About Us',
+]);
